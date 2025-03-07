@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="id">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hubungi Kami</title>
+  <link rel="icon" type="image/x-icon" href="logo sumbar.png">
+  <link rel="stylesheet" href="kontakstyle.css">
+<head>
+  <header class="fade-in">
+    <div class="logo">PesonaSumut</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="kontak.html">Contact</a></li>
+        <li><a href="about.html">About me</a></li>
+        <li><a href="galeri.html">Gallery</a></li>
+      </ul>
+    </nav>
+  </header>  
+</head>
+<body>
+  <header class="fade-in">
+    <h1>Hubungi Kami</h1>
+  </header>
+  <div class="container fade-in">
+    <h2>Form Kontak</h2>
+    <form onsubmit="showAlert(event)">
+      <label for="nama">Nama:</label>
+      <input type="text" id="nama" name="nama" placeholder="Masukkan nama Anda" required>
+      
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Masukkan email Anda" required>
+      
+      <label for="pesan">Pesan:</label>
+      <textarea id="pesan" name="pesan" placeholder="Tulis pesan Anda di sini" required></textarea>
+      
+      <button type="submit">Kirim Pesan</button>
+  </form>
+
+    <div class="contact-info">
+      <h3>Informasi Kontak</h3>
+      <p><strong>Alamat:</strong> Jl. Cigugur girang, Parongpong</p>
+      <p><strong>Telepon:</strong> +62 895-0743-1393</p>
+      <p><strong>Email:</strong> donifirefox@gmail.com</p>
+    </div>
+  </div>
+
+  <script src="mainkontak.js"></script>
+
+  <footer class="fade-in">
+    <div class="footer-container">
+      <div class="footer-left">
+        <h2>PesonaSumut</h2>
+        <p>Buat Waktu Liburan Anda Terasa<br>Lebih Menyenangkan!</p>
+      </div>
+  
+      <div class="footer-center">
+        <h3>More on The Blog</h3>
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="kontak.html">Contact</a></li>
+        </ul>
+      </div>
+  
+      <div class="footer-right">
+        <h3>More on PesonaSumut</h3>
+        <ul>
+          <li><a href="galeri.html">Gallery</a></li>
+        </ul>
+      </div>
+    </div>
+  
+    <div class="footer-bottom">
+      <p>&copy; 2025 PesonaSumut. Semua hak cipta dilindungi.</p>
+    </div>
+  </footer>
+  
+</body>
+</html>

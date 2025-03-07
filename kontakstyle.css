@@ -1,0 +1,236 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&family=Poppins:wght@400;500;600;700&display=swap");
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0a1e27;
+    margin: 0;
+    padding: 0;
+  }
+  header {
+    background-color: #0a1e27;
+    color: rgb(255, 255, 255);
+    padding: 1rem;
+    text-align: center;
+  }
+  .container {
+    width: 90%;
+    max-width: 700px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    margin: 2rem auto;
+    padding: 2rem;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    color: #ffffff;
+  }
+  form label {
+    display: block;
+    margin-bottom: 1rem;
+  }
+  form input[type="text"],
+  form input[type="email"],
+  form textarea {
+    width: 670px;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  form textarea {
+    height: 150px;
+    resize: vertical;
+  }
+  form button {
+    background-color: #000000;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  form button:hover {
+    background-color: #131313;
+  }
+  .contact-info {
+    margin-top: 2rem;
+    text-align: center;
+  }
+  .contact-info h3 {
+    margin-bottom: 1rem;
+  }
+  .contact-info p {
+    margin: 0.25rem 0;
+  }
+
+  .nav__links {
+    position: absolute;
+    right: 1rem;
+    top: 68px;
+    width: calc(100% - 2rem);
+    max-width: 350px;
+    padding: 2rem;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: rgba(10, 30, 39, 0.8);
+    border-radius: 10px;
+    display: none;
+  }
+  
+  header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 10%;
+    background: #0a1e27; 
+    color: white;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    position: absolute;
+    top: 5px;
+    left: 0px;
+    font-family: 'Playfair Display', serif;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #e9c675;
+}
+
+body {
+  font-family: 'Poppins', sans-serif; 
+}
+
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif; 
+}
+
+p {
+  font-family: 'Poppins', sans-serif; 
+}
+
+/* Footer Styles */
+footer {
+  background-color: #0f1e29;  
+  color: #fff;              
+  padding: 40px 0;           
+  font-family: 'Poppins', sans-serif; 
+}
+
+.footer-container {
+  width: 90%;               
+  margin: 0 auto;         
+  display: flex;         
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;        
+}  
+
+.footer-left {
+  flex: 1 1 250px;
+  margin-right: 20px;
+}
+
+.footer-left h2 {
+  margin-bottom: 10px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.footer-left p {
+  margin: 0;
+  line-height: 1.5;
+  color: #bdbdbd; 
+}
+
+.footer-center, 
+.footer-right {
+  flex: 1 1 150px;
+  margin: 10px 0;
+}
+
+.footer-center h3,
+.footer-right h3 {
+  color: #fec344; 
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.footer-center ul,
+.footer-right ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-center ul li,
+.footer-right ul li {
+  margin-bottom: 10px;
+}
+
+.footer-center ul li a,
+.footer-right ul li a {
+  color: #ffffff;       
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-center ul li a:hover,
+.footer-right ul li a:hover {
+  color: #fec344;         
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 50px;
+  padding-top: 10px;
+}
+
+.footer-bottom p {
+  margin: 0;
+  font-size: 14px;
+  color: #cccccc;
+}
+
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeIn 2s ease-out forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
